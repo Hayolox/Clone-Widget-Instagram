@@ -28,7 +28,7 @@ class StoryItem extends StatelessWidget {
                       image: const DecorationImage(
                           fit: BoxFit.cover,
                           image: const NetworkImage(
-                              'https://picsum.photos/seed/picsum/200/300')),
+                              "https://picsum.photos/seed/picsum/200/300")),
                       color: Colors.grey[300],
                       borderRadius: BorderRadius.circular(40),
                       border: Border.all(width: 3, color: Colors.white))),

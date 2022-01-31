@@ -130,6 +130,7 @@ class ProfilePage extends StatelessWidget {
                             const BorderSide(width: 1, color: Colors.black))),
               )),
               Expanded(
+                  // ignore: avoid_unnecessary_containers
                   child: Container(
                 child: IconButton(
                     onPressed: () {},
@@ -145,7 +146,7 @@ class ProfilePage extends StatelessWidget {
                 mainAxisSpacing: 5, crossAxisSpacing: 5, crossAxisCount: 3),
             itemBuilder: (context, index) => Image(
               image:
-                  NetworkImage('https://picsum.photos/id/${index + 1}/200/300'),
+                  NetworkImage("https://picsum.photos/id/${index + 1}/200/300"),
               fit: BoxFit.cover,
             ),
           ),
